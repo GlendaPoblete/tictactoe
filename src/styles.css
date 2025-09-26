@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  color:palevioletred;
 }
 
 h1 {
@@ -57,8 +58,8 @@ body {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: pink;
+  border: 1px solid palevioletred;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -69,6 +70,14 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
+}
+
+.square-x {
+  color: red; /* X will be red */
+}
+
+.square-o {
+  color: blue; /* O will be blue */
 }
 
 .board-row:after {
